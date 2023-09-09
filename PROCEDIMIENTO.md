@@ -11,7 +11,7 @@ git branch -M main
 git push -u origin main
 ```
 
-##	Actualizar
+##	Actualizar repositorio
 ```sh
 git add .
 git commit -m "API Criptomonedas"
