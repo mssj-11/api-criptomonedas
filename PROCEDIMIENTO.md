@@ -17,3 +17,9 @@ git add .
 git commit -m "API Criptomonedas"
 git push origin main
 ```
+
+
+##  Dependencias/Componnetes
+```sh
+npm i @emotion/core @emotion/styled axios
+```
