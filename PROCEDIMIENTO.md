@@ -19,7 +19,7 @@ git push origin main
 ```
 
 
-##  Dependencias/Componnetes
+##  Dependencias/Componentes
 ```sh
 npm i @emotion/core @emotion/styled axios
 ```
