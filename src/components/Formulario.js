@@ -1,6 +1,7 @@
 /*rafce*/
 import React from 'react';
 import styled from '@emotion/styled';
+import useMoneda from '../hooks/useMoneda';
 
 
 const Boton = styled.input`
@@ -15,16 +16,19 @@ const Boton = styled.input`
     color: #fff;
     transition: background-color .3s ease ;
 
-    &::hover{
-        background-color: #32ac0;
-        cursor: pointer;
+    &:hover{
+      background-color: #326ac0;
+      cursor: pointer;
     }
 `;
 
 
 const Formulario = () => {
+  //  Usando useMoneda
+  const [state, Seleccionar, actualizarState] = useMoneda();
   return (
     <form>
+        <Seleccionar />
         <Boton type='submit' value='Calcular' />
     </form>
   )
